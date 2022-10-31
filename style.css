@@ -100,29 +100,40 @@ h3 {
   padding: 20px 80px;
   margin-top: 50px;
   transition: all 0.2s ease-in-out;
+  font-weight: 600;
+  box-shadow: 0 1px 2px 0 rgba(94, 0, 91, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn:hover {
-  background-color: #a3d279;
-  font-weight: bold;
-  color: black;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0, 0.1);
-}
-
-.btn:active {
-  transform: scale(0.98);
-  /* it will shrink while we click the button */
-}
-.btn:hover{
-  border-color:#a3d279;
-  background-color:#a3d279;
-}
 .btn{
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
+
+.btn:hover {
+  background-color: #9448dc;
+  font-weight: bold;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover{
+  border-color:#a3d279;
+  background-color:#9448dc;
+}
+
+.btn:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+  /* it will shrink while we click the button */
+}
+
+
 
 .btn:after {
   content: '»';
@@ -133,10 +144,6 @@ h3 {
   transition: 0.5s;
 }
 
-.btn:hover{
-  padding-right: 24px;
-  padding-left:8px;
-}
 
 .btn:hover:after {
   opacity: 1;
@@ -311,4 +318,5 @@ body.dark .lds-ring div {
 
 .heading {
   font-weight: bold;
+  
 }
